@@ -10,7 +10,7 @@ pipeline {
     stage('Checkout') {
       steps {
         git(
-          url: 'https://github.com/likhiths050/demo_maven',
+          url: 'https://github.com/likhitha050/demo_maven',
           branch: 'main',
           credentialsId: 'dockerID'
         )
